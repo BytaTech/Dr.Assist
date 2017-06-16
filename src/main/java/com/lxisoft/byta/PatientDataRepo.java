@@ -19,4 +19,5 @@ public interface PatientDataRepo extends JpaRepository<PatientHistory, String> {
 	 * @return {@link PatientHistory}
 	 */
 	public PatientHistory findById(long id);
+	
 }
