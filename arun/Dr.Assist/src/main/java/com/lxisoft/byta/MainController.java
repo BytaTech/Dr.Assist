@@ -23,7 +23,7 @@ public class MainController {
 	 * @param patient
 	 * @return 
 	 */
-	@RequestMapping("/saveData")
+	@RequestMapping("/savmedicaldata")
 	public PatientHistory saveData(@ModelAttribute PatientHistory patient) {
 
 		return repo.save(patient);
@@ -37,7 +37,7 @@ public class MainController {
 	 * @return
 	 */
 
-	@RequestMapping("/updateData")
+	@RequestMapping("/updatemedicaldata")
 	public PatientHistory updateData(@ModelAttribute PatientHistory patient) {		
 		
 		return repo.save(patient);
@@ -51,7 +51,7 @@ public class MainController {
 	 * @param patient
 	 * @return
 	 */
-	@RequestMapping("/getData")
+	@RequestMapping("/getmedicaldata")
 	public PatientHistory getData(long id) {
 
 		return repo.findById(id);

@@ -4,7 +4,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 /**
- * PatientHistory is a class to create table in database for storing  Patient medical data
+ * PatientHistory is a class to create table in database for storing Patient
+ * medical data
  * 
  * @author ARUN JOHNSON
  * @version 1.0.0
